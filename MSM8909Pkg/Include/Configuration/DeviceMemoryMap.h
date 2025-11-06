@@ -66,7 +66,7 @@ static ARM_MEMORY_REGION_DESCRIPTOR_EX gDeviceMemoryDescriptorEx[] = {
 {0x80024000, 0x001DC000, "HLOS 1",           AddMem, SYS_MEM, SYS_MEM_CAP, Conv,   WRITE_BACK},
 {0x80200000, 0x00200000, "UEFI FD",          AddMem, SYS_MEM, SYS_MEM_CAP, BsCode, WRITE_BACK},
 {0x80D00000, 0x0F3B0000, "HLOS 2",           AddMem, SYS_MEM, SYS_MEM_CAP, BsData, WRITE_BACK},
-{0x9F82D000, 0x004b1000, "Display Reserved", AddMem, MEM_RES, WRITE_THROUGH, MaxMem, WRITE_THROUGH},
+{0x9f74f000, 0x004b1000, "Display Reserved", AddMem, MEM_RES, WRITE_THROUGH, MaxMem, WRITE_THROUGH},
 
 //------------- Register Regions ----------
 {0x12001000, 0x00001000, "GIC Distributor",     AddDev, MMAP_IO, UNCACHEABLE, MmIO,   DEVICE},
