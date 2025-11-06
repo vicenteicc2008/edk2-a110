@@ -142,8 +142,8 @@ SMBIOS_TABLE_TYPE1 mSysInfoType1 = {
   6,    // Family String
 };
 CHAR8  *mSysInfoType1Strings[] = {
-  "Samsung Galaxy Tab E 7.0",
-  "SM-T113NU/SM-T116BU",
+  "ZTE Blade A110",
+  "A110",
   "",
   "0bc52bb9-9473-4875-be2a-3973076c20e2",
   "",
@@ -176,8 +176,8 @@ SMBIOS_TABLE_TYPE2  mBoardInfoType2 = {
   { 0 }                     // ContainedObjectHandles[1];
 };
 CHAR8  *mBoardInfoType2Strings[] = {
-  "Samsung Galaxy Tab E 7.0",
-  "SM-T113NU/SM-T116BU",
+  "ZTE Blade A110",
+  "A110",
   "",
   "0bc52bb9-9473-4875-be2a-3973076c20e2",
   "",
@@ -207,7 +207,7 @@ SMBIOS_TABLE_TYPE3  mEnclosureInfoType3 = {
   { { 0 } },    // ContainedElements[1];
 };
 CHAR8  *mEnclosureInfoType3Strings[] = {
-  "Samsung Galaxy Tab E 7.0",
+  "ZTE Blade A110",
   "1",
   "0bc52bb9-9473-4875-be2a-3973076c20e2",
   "",

@@ -21,19 +21,19 @@
   gMSM8909PkgTokenSpaceGuid.PcdUefiMemPoolSize|0x0F3B0000         # UefiMemorySize, DXE heap size
   gArmTokenSpaceGuid.PcdCpuVectorBaseAddress|0x80C40000
 
-  # Framebuffer (1024x600)
-  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9eef4000
-  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1024
-  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|600
-  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1024
-  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|600
-  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|16
+  # Framebuffer (480x800)
+  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9f74f000
+  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|480
+  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|800
+  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|480
+  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|800
+  gMSM8909PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32
 
   # SPRD GPIO
-  gMSM8909PkgTokenSpaceGuid.GpioBase|0xf5224000
+  gMSM8909PkgTokenSpaceGuid.GpioBase|0x40280000
 
   # Timer
-  gMSM8909PkgTokenSpaceGuid.PcdTimerBase|0xf5204000
+  gMSM8909PkgTokenSpaceGuid.PcdTimerBase|0x40230000
 
   # SPRD eMMC/SD card
   gMSM8909PkgTokenSpaceGuid.PcdSdhciAddressPart1|0xF511C000

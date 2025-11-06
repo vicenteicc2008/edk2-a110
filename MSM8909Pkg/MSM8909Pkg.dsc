@@ -231,9 +231,9 @@
   # SoC Drivers
   #
   MSM8909Pkg/Drivers/SprdGpioDxe/SprdGpioDxe.inf
-  MSM8909Pkg/Drivers/SprdClockDxe/SprdClockDxe.inf
+  # MSM8909Pkg/Drivers/SprdClockDxe/SprdClockDxe.inf
   MSM8909Pkg/Drivers/SprdDmaDxe/SprdDmaDxe.inf
-  MSM8909Pkg/Drivers/SprdI2CDxe/SprdI2CDxe.inf
+  # MSM8909Pkg/Drivers/SprdI2CDxe/SprdI2CDxe.inf
 
   #
   # Buttons
@@ -280,7 +280,7 @@
   MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
   MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
   MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
-  MSM8909Pkg/Drivers/SprdSdhciDxe/SprdSdhciDxe.inf
+  # MSM8909Pkg/Drivers/SprdSdhciDxe/SprdSdhciDxe.inf
   MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf
   FatPkg/EnhancedFatDxe/Fat.inf
 
